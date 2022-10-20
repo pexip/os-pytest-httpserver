@@ -1,0 +1,7 @@
+Repository: https://github.com/csernazs/pytest-httpserver.git
+Repository-Browse: https://github.com/csernazs/pytest-httpserver
+Bug-Database: https://github.com/csernazs/pytest-httpserver/issues
+Bug-Submit: https://github.com/csernazs/pytest-httpserver/issues/new/choose
+Registry:
+ - Name: conda:conda-forge
+   Entry: pytest-httpserver

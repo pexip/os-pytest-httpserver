@@ -1,0 +1,14 @@
+pytest-httpserver (1.0.6-2) unstable; urgency=medium
+
+  * Packaging update
+  * Standards-Version: 4.6.1 (routine-update)
+  * Strip unusual field spacing from debian/control.
+  * Use canonical URL in Vcs-Git.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Thu, 20 Oct 2022 11:08:19 +0200
+
+pytest-httpserver (1.0.6-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1022044)
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Wed, 19 Oct 2022 15:14:58 +0200

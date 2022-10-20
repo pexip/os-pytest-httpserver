@@ -1,0 +1,27 @@
+Source: pytest-httpserver
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all:any,
+               pybuild-plugin-pyproject,
+               python3-poetry-core,
+               python3-werkzeug,
+               python3-pytest <!nocheck>,
+               python3-requests <!nocheck>
+Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pytest-httpserver
+Vcs-Git: https://salsa.debian.org/python-team/packages/pytest-httpserver.git
+Homepage: https://github.com/csernazs/pytest-httpserver
+Rules-Requires-Root: no
+
+Package: python3-pytest-httpserver
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: HTTP server for pytest to test HTTP clients
+ This library is designed to help to test HTTP clients without contacting the
+ real HTTP server. In other words, it is a fake HTTP server which is accessible
+ via localhost can be started with the pre-defined expected HTTP requests and
+ their responses.
