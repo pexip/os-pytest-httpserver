@@ -1,8 +1,9 @@
 Source: pytest-httpserver
 Section: python
 Priority: optional
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+XSBC-Pexip-Original-Uploaders: Michael R. Crusoe <crusoe@debian.org>
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all:any,
@@ -16,6 +17,7 @@ Vcs-Browser: https://salsa.debian.org/python-team/packages/pytest-httpserver
 Vcs-Git: https://salsa.debian.org/python-team/packages/pytest-httpserver.git
 Homepage: https://github.com/csernazs/pytest-httpserver
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: python3-pytest-httpserver
 Architecture: all
